@@ -1,3 +1,7 @@
+<head>
+<link rel="icon" href="../favicon.ico"></link>
+</head>
+
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // collect value of input field
