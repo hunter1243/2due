@@ -26,12 +26,11 @@
         </div>
         <div id="menu" class="w-full sm:w-auto self-end sm:self-center sm:flex flex-col sm:flex-row items-center h-full py-1 pb-4 sm:py-0 sm:pb-0 hidden">
             <a class="text-dark font-strong hover:text-red text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2" href="register/">Register</a>
-            <a class="text-dark font-strong hover:text-red text-lg w-full no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2" href="#P3L">Features</a>
         </div>
     </nav>
 </header>
 <main class="content bg-teal-100">
-    <div class="min-h-screen text-center mx-auto py-24">
+    <div class=" text-center mx-auto py-24">
 
 
 
@@ -43,52 +42,48 @@
 
 
         <!-- Component Start -->
-        <div class="flex p-10 space-x-4 overflow-auto text-gray-700">
-            <div class="flex flex-col flex-shrink-0 w-64 bg-gray-200 border border-gray-300">
-                <div class="flex items-center justify-between flex-shrink-0 h-10 px-2 border-b border-gray-300 bg-white">
+        <div class="flex p-10 space-x-4 overflow-auto text-gray-700 justify-center mx-auto">
+            <div class="flex flex-col  w-64 bg-gray-200 border border-gray-300">
+                <div class="flex items-center justify-between h-10 px-2 border-b border-gray-300 bg-white">
                     <span class="block text-sm font-medium">Could do</span>
 
                 </div>
                 <div class="flex flex-col px-2 pb-2 ">
-                    <div class="p-6 mt-2 border border-gray-300 bg-white cursor-pointer">Item</div>
-                    <div class="p-6 mt-2 border border-gray-300 bg-white cursor-pointer">Item</div>
-                    <div class="p-6 mt-2 border border-gray-300 bg-white cursor-pointer">Item</div>
+                    <div class="p-6 mt-2 border border-gray-300 bg-white cursor-pointer">Homework</div>
+                    <div class="p-6 mt-2 border border-gray-300 bg-white cursor-pointer">Gym</div>
+                    <div class="p-6 mt-2 border border-gray-300 bg-white cursor-pointer">Cook</div>
 
                 </div>
             </div>
-            <div class="flex p-10 space-x-4 overflow-auto text-gray-700">
-                <div class="flex flex-col flex-shrink-0 w-64 bg-gray-200 border border-gray-300">
-                    <div class="flex items-center justify-between flex-shrink-0 h-10 px-2 border-b border-gray-300 bg-white">
+            <div class="flex pt-10 pb-10 space-x-4 overflow-auto text-gray-700">
+                <div class="flex flex-col  w-64 bg-gray-200 border border-gray-300">
+                    <div class="flex items-center justify-between  h-10 px-2 border-b border-gray-300 bg-white">
                         <span class="block text-sm font-medium">Should do</span>
 
                     </div>
                     <div class="flex flex-col px-2 pb-2 ">
-                        <div class="p-6 mt-2 border border-gray-300 bg-white cursor-pointer">Item</div>
-                        <div class="p-6 mt-2 border border-gray-300 bg-white cursor-pointer">Item</div>
-
-
+                        <div class="p-6 mt-2 border border-gray-300 bg-white cursor-pointer">Study for exam</div>
+                        <div class="p-6 mt-2 border border-gray-300 bg-white cursor-pointer">Fasfa	</div>
                     </div>
+					
                 </div>
-                <div class="flex p-10 space-x-4 overflow-auto text-gray-700">
-                    <div class="flex flex-col flex-shrink-0 w-64 bg-gray-200 border border-gray-300">
-                        <div class="flex items-center justify-between flex-shrink-0 h-10 px-2 border-b border-gray-300 bg-white">
+                <div class="flex pt-10 pb-10 space-x-4 flex-shrink	 overflow-auto text-gray-700">
+                    <div class="flex flex-col  w-64 bg-gray-200 border border-gray-300">
+                        <div class="flex items-center justify-between 0 h-10 px-2 border-b border-gray-300 bg-white">
                             <span class="block text-sm font-medium">Must do</span>
 
                         </div>
                         <div class="flex flex-col px-2 pb-2 ">
-                            <div class="p-6 mt-2 border border-gray-300 bg-white cursor-pointer">Item</div>
-
+                            <div class="p-6 mt-2 border border-gray-300 bg-white cursor-pointer">Register for classes</div>
                         </div>
                     </div>
+					
+					</div>
 
-
-
-
-
-
-
+					</div>
 
                 </div>
+				</div>
 </main>
 
 <style>
@@ -217,7 +212,7 @@
         });
     });
 </script>
-
+<?php include_once('footer.php') ?>
 
 </body>
 

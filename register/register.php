@@ -1,7 +1,3 @@
-<head>
-<link rel="icon" href="../favicon.ico"></link>
-</head>
-
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // collect value of input field
@@ -13,12 +9,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo $password;
 }
 
-$servername = "localhost";
-$dbuser= "root";
-$password = "";
+<?php include_once('dbclass.php');?>
 
 try {
-    $conn = new PDO("mysql:host=$servername;dbname=2due", $dbuser, $password);
+    $conn = new PDO(mysql:host=$servername;dbname=$dbname, $dbuser, $password);
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 

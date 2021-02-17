@@ -25,32 +25,31 @@
         </div>
         <div id="menu" class="w-full sm:w-auto self-end sm:self-center sm:flex flex-col sm:flex-row items-center h-full py-1 pb-4 sm:py-0 sm:pb-0 hidden">
             <a class="text-dark font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2" href="./">Register</a>
-            <a class="text-dark font-strong hover:text-red text-lg w-full no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2" href="#P3L">Features</a>
         </div>
     </nav>
 </header>
 <main class="content bg-teal-100">
-    <div class="min-h-screen text-center mx-auto py-24">
+    <div class="text-center mx-auto py-24">
 
 
+<div class="">
+    <div class="mx-auto bg-white  overflow-hidden md:max-w-md">
+        <div class="md:flex">
+            <div class="w-full p-3 px-6 py-10">
+                <div class="text-center"> <span class="text-xl text-gray-700">Registration Form</span> </div>
+				<form action="register.php" method="post">
+                <div class="mt-4 relative"> <span class="absolute p-1 bottom-8 ml-2 bg-white text-gray-400 ">Username</span> <input id="email-address" name="username" type="text" type="text" class="h-12 px-2 w-full border-2 rounded focus:outline-none focus:border-red-600"> </div>
+                <div class="mt-4 relative"> <span class="absolute p-1 bottom-8 ml-2 bg-white text-gray-400 ">Email</span> <input id="email-address" type="text" class="h-12 px-2 w-full border-2 rounded focus:outline-none focus:border-red-600"> </div>
+                <div class="mt-4 relative"> <span class="absolute p-1 bottom-8 ml-2 bg-white text-gray-400 ">Password</span> <input id="password" name="password" type="password" autocomplete="current-password" type="text" class="h-12 px-2 w-full border-2 rounded focus:outline-none focus:border-red-600"> </div>
+                <div class="mt-4"> <button type="submit" class="h-12 w-full bg-red-600 text-white rounded hover:bg-red-700">Click to register <i class="fa fa-long-arrow-right"></i></button> </div>
+				</form>
+			</div>
+        </div>
+    </div>
+</div>
 
-
-
-        <!-- Component Start -->
-        <div class="flex p-10 space-x-4 overflow-auto text-gray-700">
-            <form action="register.php" method="post">\
-                <input id="email-address" name="username" type="text"  required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="username">
-
-                <input id="email-address" name="email" type="email" autocomplete="email" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Email address">
-            <input id="password" name="password" type="password" autocomplete="current-password" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Password">
-            <div>
-                <button type="submit" class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-               GO
-
-                </button>
-            </div>
-        </form>
-                </div>
+				
+		</div>		
 </main>
 
 <style>
@@ -150,7 +149,7 @@
         nav.classList.toggle('hidden');
     }
 </script>
-<?php include_once('../footer.php') ?>
+<?php include_once('./footer.php') ?>
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"

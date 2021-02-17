@@ -30,7 +30,7 @@
 
         <div class="mt-12 sm:w-1/2 lg:w-2/5 lg:mt-0 lg:pl-12">
             <div>
-                <img src="./img/logo.png" height="128" width="32">
+                <img src="../img/logo.png" height="128" width="32">
             </div>
 
             <p class="text-base text-gray-600 mt-4">Committed to helping you stay on track through personal project management</p>
